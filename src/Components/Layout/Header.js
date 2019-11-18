@@ -1,14 +1,11 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Link } from 'react-router-dom';
-import Button from 'reactstrap/lib/Button';
+import { Link } from 'react-router-dom';
 import Collapse from 'reactstrap/lib/Collapse';
 import Nav from 'reactstrap/lib/Nav';
 import NavItem from 'reactstrap/lib/NavItem';
 import Navbar from 'reactstrap/lib/Navbar';
-import NavbarBrand from 'reactstrap/lib/NavbarBrand';
 import NavbarToggler from 'reactstrap/lib/NavbarToggler';
 import "./Layout.css"
-
 
 class Header extends Component {
     constructor(props) {
@@ -40,11 +37,10 @@ class Header extends Component {
 
         return (
             <React.Fragment>
-                <Router>
 
                     <Navbar id="Header" className="border-bottom" expand="md">
-                        <NavbarBrand> Pasig Bible Believers Baptist Church and Missions (P3BCM)</NavbarBrand>
-                        <NavbarToggler onClick={i => this.toggleMenu()} />
+                        <div><b> Pasig Bible Believers Baptist Church and Missions (P3BCM)</b></div>
+                        <NavbarToggler onClick={i => this.toggleMenu()} className="mt-2" />
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
@@ -59,7 +55,6 @@ class Header extends Component {
                             </Nav>
                         </Collapse>
                     </Navbar>
-                </Router>
             </React.Fragment>
         )
     };

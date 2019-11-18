@@ -12,8 +12,8 @@ function App() {
     <React.Fragment>
       <div id="main">
         <Header />
-        <div>
-          <Switch>
+        <div style={{backgroundColor:"gainsboro",height:"100%"}} >
+          <Switch >
             <Route exact path="/" component={Home} />
             <Route path="/Home" exact component={Home} />
           </Switch>

@@ -1,22 +1,18 @@
-#Header , #FooterContainer {
+#Header, #FooterContainer {
     background-color: #459c48;
     color: white !important;
 }
 
 #Header>div>ul>li>a {
     color: white !important;
-
-  
 }
 
 #Header>div>ul>li {
-    border:transparent .5px dotted !important;
-  
+    border: transparent .5px dotted !important;
 }
 
 #Header>div>ul>li:hover {
     border: orange .5px dotted !important;
-  
 }
 
 .navbar-toggler {
@@ -37,5 +33,25 @@
     }
     .secondary.menu {
         display: block!important;
+    }
+}
+
+.jumbotron-custom {
+    background-color: transparent !important;
+}
+
+#p-desc {
+    font-size: 17px;
+    margin: 0px 10%;
+}
+
+#h1-title {
+    font-size: 45px;
+}
+
+@media only screen and (max-width: 700px) {
+    #h1-title {
+        font-size: 25px;
+        font-weight: bold;
     }
 }

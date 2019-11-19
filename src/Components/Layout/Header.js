@@ -5,7 +5,7 @@ import Nav from 'reactstrap/lib/Nav';
 import NavItem from 'reactstrap/lib/NavItem';
 import Navbar from 'reactstrap/lib/Navbar';
 import NavbarToggler from 'reactstrap/lib/NavbarToggler';
-import "./Layout.css"
+import "./../Layout.css"
 
 class Header extends Component {
     constructor(props) {

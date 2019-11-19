@@ -1,8 +1,8 @@
 import React from 'react';
 import { Header, Footer } from "./Components/Layout"
 import { Route, Switch } from 'react-router-dom'
-import Home from './Components/Home'
-
+import Home from './Components/Home/Home'
+import SOF from './Components/StamentOfFaith/StatementOfFaith'
 
 
 function App() {
@@ -16,6 +16,8 @@ function App() {
           <Switch >
             <Route exact path="/" component={Home} />
             <Route path="/Home" exact component={Home} />
+            <Route path="/SOF" exact component={SOF} />
+            <Route path="/SOF" exact component={SOF} />
           </Switch>
         </div>
         <Footer />

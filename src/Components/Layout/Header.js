@@ -38,23 +38,23 @@ class Header extends Component {
         return (
             <React.Fragment>
 
-                    <Navbar id="Header" className="border-bottom" expand="md">
-                        <div><b> Pasig Bible Believers Baptist Church and Missions (P3BCM)</b></div>
-                        <NavbarToggler onClick={i => this.toggleMenu()} className="mt-2" />
-                        <Collapse isOpen={this.state.isOpen} navbar>
-                            <Nav className="ml-auto" navbar>
-                                <NavItem>
-                                    <Link className="nav-link" to="/Home">Home</Link>
-                                </NavItem>
-                                <NavItem>
-                                    <Link className="nav-link" to="/SOF">Statement of Faith</Link>
-                                </NavItem>
-                                <NavItem>
-                                    <Link className="nav-link" to="/Event">Events</Link>
-                                </NavItem>
-                            </Nav>
-                        </Collapse>
-                    </Navbar>
+                <Navbar id="Header" className="border-bottom" expand="md">
+                    <div><b> Pasig Bible Believers Baptist Church and Missions (P3BCM)</b></div>
+                    <NavbarToggler onClick={i => this.toggleMenu()} className="mt-2" />
+                    <Collapse isOpen={this.state.isOpen} navbar>
+                        <Nav className="ml-auto" navbar>
+                            <NavItem>
+                                <Link className="nav-link" to="/Home">Home</Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link className="nav-link" to="/SOF">Statement of Faith</Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link className="nav-link" to="/Events">Events</Link>
+                            </NavItem>
+                        </Nav>
+                    </Collapse>
+                </Navbar>
             </React.Fragment>
         )
     };

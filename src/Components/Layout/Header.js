@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+//Import Navigation Controls
 import Collapse from 'reactstrap/lib/Collapse';
 import Nav from 'reactstrap/lib/Nav';
 import NavItem from 'reactstrap/lib/NavItem';
 import Navbar from 'reactstrap/lib/Navbar';
 import NavbarToggler from 'reactstrap/lib/NavbarToggler';
+//Import Components
+import LogIn from './../LogIn'
+//Import CSS Files
 import "./../Layout.css"
 
 class Header extends Component {
@@ -51,6 +55,9 @@ class Header extends Component {
                             </NavItem>
                             <NavItem>
                                 <Link className="nav-link" to="/Events">Events</Link>
+                            </NavItem>
+                            <NavItem>
+                                <div className="nav-link"> <LogIn /> </div>
                             </NavItem>
                         </Nav>
                     </Collapse>

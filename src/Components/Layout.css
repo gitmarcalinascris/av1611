@@ -51,7 +51,7 @@
 
 .tbl-display {
     max-width: 45% !important;
-    background-color: rgba(255,255,255,0.8) !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .div-event {
@@ -66,4 +66,15 @@
     .tbl-display {
         max-width: 100% !important;
     }
+}
+
+#DivPreparedBy {
+    font-weight: bolder;
+    background-color: RGBA(220, 220, 220, .5);
+    max-width: 300px !important;
+}
+
+.div-event-img {
+    max-width: 400px;
+    max-height: 400px;
 }

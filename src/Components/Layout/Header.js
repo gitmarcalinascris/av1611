@@ -6,8 +6,6 @@ import Nav from 'reactstrap/lib/Nav';
 import NavItem from 'reactstrap/lib/NavItem';
 import Navbar from 'reactstrap/lib/Navbar';
 import NavbarToggler from 'reactstrap/lib/NavbarToggler';
-//Import Components
-import LogIn from './../LogIn'
 //Import CSS Files
 import "./../Layout.css"
 

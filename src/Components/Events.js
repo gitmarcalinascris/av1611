@@ -1,9 +1,9 @@
 import React from 'react'
 import { Card, CardBody, CardHeader, CardImg, CardFooter, Table, Button } from 'reactstrap'
+import EventImg from "./../Assets/images/BlowOut2019.png"
+import "./Layout.css"
 class Events extends React.Component {
-    constructor(props){
-        super(props);
-    }
+ 
 
     onRegisterClick(){
 
@@ -17,7 +17,9 @@ class Events extends React.Component {
                     <Card className="div-event">
                         <CardHeader>Baptist Blowout 2019</CardHeader>
                         <CardBody >
-                            <CardImg top  />
+                            <CardImg src={EventImg} className="div-event-img" />
+                            <br/>
+                            <br/>
                             <Table striped bordered size="sm" >
                                 <tbody>
                                     <tr>

@@ -20,12 +20,12 @@ const Home = () => {
                         </p>
                         <br />
 
-                        <div style={{ backgroundColor: "rgba(255,255,255,0.8)", maxWidth: "400px" }}>
+                        <div style={{ backgroundColor: "rgba(255,255,255,0.5)", maxWidth: "400px" }}>
                             <p className="lead"><b>Pastor Ismael Sanchez.</b></p>
                             <p className="lead">1542 E. Santos St., Barangay Palatiw.</p>
                             <p className="lead">Pasig City, Philippines 1600</p>
 
-                            <p className="lead">
+                            <div className="lead">
                                 ☎ 0999 352 4318
                                 <p>
                                     ✉ PasigKJV1611@gmail.com
@@ -34,10 +34,10 @@ const Home = () => {
                                     <a href="https://www.facebook.com/Av1611BelieversBaptistChurchPasig/"><img src={fbImg} alt="logo" style={{ width: 32, height: 32 }} />        Visit our Facebook</a>
                              
                                 </p>
-                            </p>
+                            </div>
 
                         </div>
-                        <hr className="my-2" />
+
                         <br />
                         <Table striped bordered size="sm" responsive className="tbl-display">
                             <thead>

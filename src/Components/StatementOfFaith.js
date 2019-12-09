@@ -57,8 +57,13 @@ const StatementOfFaith = () => {
 
                         </tbody>
                     </Table>
+
+                    <div id="DivPreparedBy" className="lead blockquote">
+                        <p>Prepared by Pastor I. Sanchez</p>
+                    </div>
+
                 </center>
-                <div className="text-center"><b>Prepared by Pastor I. Sanchez</b></div>
+
             </div>
         </div>
     );

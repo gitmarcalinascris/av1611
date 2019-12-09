@@ -1,8 +1,8 @@
 import React from 'react'
 import { Button, Tooltip, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 //Import Icons
-import { FiLogIn, FiLogOut } from "react-icons/fi";
-import { Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { FaUser } from "react-icons/fa";
+import { Form, FormGroup, Label, Input } from 'reactstrap';
 
 class LogIn extends React.Component {
     constructor(props) {
@@ -15,8 +15,8 @@ class LogIn extends React.Component {
         this.toggleLogin = this.toggleLogin.bind(this);
         this.toggleTooltip = this.toggleTooltip.bind(this);
     }
-
-    toggleLogin() {
+  
+    toggleLogin = () =>{
         this.setState({
             isOpenLogin: !this.state.isOpenLogin
         });
@@ -37,7 +37,7 @@ class LogIn extends React.Component {
                 <Tooltip placement="bottom" target="btnLogin" isOpen={this.state.isTooltipOpen} toggle={this.toggleTooltip}>
                     Login
                  </Tooltip>
-                <FiLogIn id="btnLogin" style={{ cursor: "pointer" }} onClick={this.toggleLogin} />
+                <FaUser id="btnLogin" style={{ cursor: "pointer" }} onClick={this.toggleLogin} />
                 <Modal isOpen={this.state.isOpenLogin}>
                     <ModalHeader toggle={this.toggleLogin}>Login</ModalHeader>
                     <ModalBody>

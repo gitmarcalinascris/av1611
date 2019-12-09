@@ -15,3 +15,16 @@ code {
   grid-template-rows: auto 1fr auto;
 }
 
+#content {
+  background-image: url("../src/Assets/images/cross.jpg") !important;
+  background-repeat: no-repeat;
+  background-color: "gainsboro" !important;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 700px) {
+  #content {
+    background-image: url("../src/Assets/images/cross.jpg") !important;
+    background-size: cover;
+  }
+}

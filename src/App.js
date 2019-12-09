@@ -5,6 +5,7 @@ import Home from './Components/Home'
 import SOF from './Components/StatementOfFaith'
 import Events from "./Components/Events"
 
+import './index.css'
 function App() {
   return (
 
@@ -12,7 +13,7 @@ function App() {
     <React.Fragment>
       <div id="main">
         <Header />
-        <div style={{ backgroundColor: "gainsboro", height: "100%" }} >
+        <div id="content" >
           <Switch >
             <Route exact path="/" component={Home} />
             <Route exact path="/Home" component={Home} />

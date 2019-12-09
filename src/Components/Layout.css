@@ -51,11 +51,11 @@
 
 .tbl-display {
     max-width: 45% !important;
+    background-color: rgba(255,255,255,0.8) !important;
 }
 
 .div-event {
     max-width: 600px;
-    max-height: 600px;
 }
 
 @media only screen and (max-width: 700px) {

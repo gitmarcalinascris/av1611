@@ -18,7 +18,7 @@ code {
 #content {
   background-image: url("../src/Assets/images/cross.jpg") !important;
   background-repeat: no-repeat;
-  background-color: "gainsboro" !important;
+  background-color: gainsboro !important;
   background-size: cover;
 }
 
@@ -27,4 +27,8 @@ code {
     background-image: url("../src/Assets/images/cross.jpg") !important;
     background-size: cover;
   }
+}
+
+.bg-common {
+  background-color: RGBA(220, 220, 220, .8) !important;
 }

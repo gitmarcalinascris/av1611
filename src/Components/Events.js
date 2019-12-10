@@ -1,25 +1,46 @@
 import React from 'react'
-import { Card, CardBody, CardHeader, CardImg, CardFooter, Table, Button } from 'reactstrap'
+import { Card, CardBody, CardHeader, CardImg, CardFooter, Table, Button, Modal, ModalHeader, ModalBody } from 'reactstrap'
 import EventImg from "./../Assets/images/BlowOut2019.png"
 import "./Layout.css"
+import "./../index.css"
 class Events extends React.Component {
- 
+    constructor(props) {
+        super(props);
 
-    onRegisterClick(){
+        this.state = {
+            isShowRegister: false
+        }
+    }
 
+    onRegisterClick = () => {
+        this.setState({
+            isShowRegister: !this.state.isShowRegister
+        });
+        console.log(this.state.isShowRegister);
     }
 
 
     render() {
         return (
-            <div style={{ margin: "1%" }} >
+            <div style={{ margin: ".5%" }}  >
+                <Modal isOpen={this.state.isShowRegister} toggle={this.onRegisterClick} >
+                    <ModalHeader toggle={this.onRegisterClick}>How to Register</ModalHeader>
+                    <ModalBody>
+                        <ol>
+                            <li><p>Pay through BDO/BPI bank transfer (Contact Sis. April Manabat or Emma Madera for details)</p></li>
+                            <li><p>Send Email (Name Person/s and Cellphone No. and Contact Person ) and Screenshot of Deposit Slip to PasigKJV1611@gmail.com</p> </li>
+                            <li><p>Wait for Email/SMS Confirmation </p></li>
+                            <li><p>Once confirmed, Bring the Deposit slip on the event for validation</p></li>
+                        </ol>
+                    </ModalBody>
+                </Modal>
                 <center>
-                    <Card className="div-event">
-                        <CardHeader>Baptist Blowout 2019</CardHeader>
+                    <Card className="div-event bg-common">
+                        <CardHeader><b>Baptist Blowout 2019</b></CardHeader>
                         <CardBody >
                             <CardImg src={EventImg} className="div-event-img" />
-                            <br/>
-                            <br/>
+                            <br />
+                            <br />
                             <Table striped bordered size="sm" >
                                 <tbody>
                                     <tr>
@@ -38,12 +59,12 @@ class Events extends React.Component {
                                     </tr>
                                     <tr>
                                         <td>Slots:</td>
-                                        <td>First Come, First Serve (180 pax)</td>
+                                        <td>First Come, First Serve (Max of 180)</td>
                                     </tr>
                                 </tbody>
                             </Table>
                         </CardBody>
-                        <CardFooter className="text-muted"><Button color="success">How to Register</Button></CardFooter>
+                        <CardFooter className="text-muted"><Button color="success" onClick={this.onRegisterClick}>How to Pre-Register</Button></CardFooter>
                     </Card>
                 </center>
             </div>

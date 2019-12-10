@@ -64,7 +64,9 @@ class Events extends React.Component {
                                 </tbody>
                             </Table>
                         </CardBody>
-                        <CardFooter className="text-muted"><Button color="success" onClick={this.onRegisterClick}>How to Pre-Register</Button></CardFooter>
+                        <CardFooter>
+                            <Button color="success" onClick={this.onRegisterClick}>How to Register</Button>
+                        </CardFooter>
                     </Card>
                 </center>
             </div>

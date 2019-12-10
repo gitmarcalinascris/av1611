@@ -16,9 +16,9 @@ function App() {
         <div id="content" >
           <Switch >
             <Route exact path="/" component={Home} />
-            <Route exact path="/Home" component={Home} />
-            <Route exact path="/SOF" component={SOF} />
-            <Route exact path="/Events" component={Events} />
+            <Route  path="/Home" component={Home} />
+            <Route  path="/SOF" component={SOF} />
+            <Route  path="/Events" component={Events} />
           </Switch>
         </div>
         <Footer />

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Footer } from "./Components/Layout"
+import { Header } from "./Components/Layout"
 import { Route, Switch } from 'react-router-dom'
 import Home from './Components/Home'
 import SOF from './Components/StatementOfFaith'
@@ -21,7 +21,6 @@ function App() {
             <Route  path="/Events" component={Events} />
           </Switch>
         </div>
-        <Footer />
       </div>
 
 

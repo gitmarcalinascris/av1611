@@ -18,7 +18,7 @@ const StreetPreachingMinistries = () => {
                         <p>
                             January 9, we did what we normally do every Black Nazarene Parade. Preaching againts false beliefs, sin (mostly about idolatry) and preaching to them the saving Gospel. And about the end of our preaching, we noticed a man  in front us who has been listening thru the course of our singing and preachings. When our speaker ran out of battery, the preacher approached him and asked if he wanted to to get saved that day.
                             <br/>
-                            <img src={NewBro} width="20%" height="20%" />
+                            <img src={NewBro}  alt="kuyaInBlue" width="20%" height="20%" />
                         </p>
                         <b>
                             <p>

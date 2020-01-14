@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom'
 import Home from './Components/Home'
 import SOF from './Components/StatementOfFaith'
 import Events from "./Components/Events"
+import SPM from "./Components/StreetPreachingMinistries"
 
 import './index.css'
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route path="/Home" component={Home} />
             <Route path="/SOF" component={SOF} />
             <Route path="/Events" component={Events} />
+            <Route path="/SPM" component={SPM} />
           </Switch>
         </div>
       </div>

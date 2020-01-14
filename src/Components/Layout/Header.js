@@ -54,6 +54,9 @@ class Header extends Component {
                             <NavItem>
                                 <Link className="nav-link" to="/Events">Events</Link>
                             </NavItem>
+                            <NavItem>
+                                <Link className="nav-link" to="/SPM">Street Preaching Ministries</Link>
+                            </NavItem>
                         </Nav>
                     </Collapse>
                 </Navbar>

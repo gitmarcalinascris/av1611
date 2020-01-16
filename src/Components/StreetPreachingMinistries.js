@@ -9,7 +9,7 @@ const StreetPreachingMinistries = () => {
                 <Card className="div-event bg-common">
                     <CardHeader><b>Preaching Against Idolatry(Nazareno 2020)</b></CardHeader>
                     <CardBody >
-                        <CardImg src={WarAgainstIdolatry} height="350" width="800" />
+                        <CardImg src={WarAgainstIdolatry} height="350" width="750" />
                         <br/>
                         <br/>
                         <p><b>Street Preaching has NO FRUITS!? REALLY?</b></p>

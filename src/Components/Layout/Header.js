@@ -49,13 +49,16 @@ class Header extends Component {
                                 <Link className="nav-link" to="/Home">Home</Link>
                             </NavItem>
                             <NavItem>
+                                <Link className="nav-link" to="/Services">Church Schedules</Link>
+                            </NavItem>
+                            <NavItem>
                                 <Link className="nav-link" to="/SOF">Statement of Faith</Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="nav-link" to="/Events">Events</Link>
+                                <Link className="nav-link" to="/SPM">Street Preaching Ministries</Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="nav-link" to="/SPM">Street Preaching Ministries</Link>
+                                <Link className="nav-link" to="/ContactUs">Contact Us</Link>
                             </NavItem>
                         </Nav>
                     </Collapse>

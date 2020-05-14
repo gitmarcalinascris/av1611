@@ -16,16 +16,18 @@ code {
 }
 
 #content {
-  background-image: url("../src/Assets/images/cross.jpg") !important;
+  background-image: url("../src/Assets/images/bg2.jpg") !important;
   background-repeat: no-repeat;
   background-color: gainsboro !important;
   background-size: cover;
+  background-position: bottom;
 }
 
 @media only screen and (max-width: 700px) {
   #content {
-    background-image: url("../src/Assets/images/cross.jpg") !important;
+    background-image: url("../src/Assets/images/bg2.jpg") !important;
     background-size: cover;
+    background-position: bottom;
   }
 }
 

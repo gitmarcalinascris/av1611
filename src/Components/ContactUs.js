@@ -15,7 +15,7 @@ const ContactUs = () => {
                             <div>
                                     ☎ 0999 352 4318
                                 <p>
-                                        ✉ PasigKJV1611@gmail.com
+                                    ✉ PasigKJV1611@gmail.com
                                 </p>
                                     <p style={{ marginTop: -10 }}>
                                         <a href="https://www.facebook.com/Av1611BelieversBaptistChurchPasig/"><img src={fbImg} alt="logo" style={{ width: 32, height: 32 }} /> Visit our Facebook</a>

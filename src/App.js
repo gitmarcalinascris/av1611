@@ -7,6 +7,7 @@ import SOF from './Components/StatementOfFaith'
 import SPM from "./Components/StreetPreachingMinistries"
 import SS from "./Components/ScheduleServices"
 import ContactUs from "./Components/ContactUs";
+import StudyLinks from "./Components/StudyLinks";
 import './index.css'
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/ContactUs" component={ContactUs} />
             <Route path="/SOF" component={SOF} />
             <Route path="/SPM" component={SPM} />
+            <Route path="/STL" component={StudyLinks} />
           </Switch>
         </div>
       </div>

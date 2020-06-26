@@ -60,6 +60,9 @@ class Header extends Component {
                             <NavItem>
                                 <Link className="nav-link" to="/ContactUs">Contact Us</Link>
                             </NavItem>
+                            <NavItem>
+                                <Link className="nav-link" to="/STL">Study Links</Link>
+                            </NavItem>
                         </Nav>
                     </Collapse>
                 </Navbar>
